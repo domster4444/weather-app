@@ -6,7 +6,7 @@ class Weather extends Component {
     super(props)
     this.inputRef=React.createRef()
     this.state={
-         hellocountry:'nepal',
+         hellocountry:'australia',
          inputcountry:null,
          testvalue:null,
          country_name:null,
