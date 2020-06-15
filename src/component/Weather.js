@@ -120,14 +120,14 @@ this.setState({linkformap:mapapi})
 <br/>
 <h3>
 {/* {this.state.testvalue} */}
-Country Name : {this.state.country_name}<br/>
-Longitude : {this.state.coordinate_longitude}<br/>
-Latitude : {this.state.coordinate_latitude}<br/>
-Temperature : {this.state.temperature}<br/>
+Country Name : {this.state.country_name}   <br/>
+Longitude : {this.state.coordinate_longitude}° E<br/>
+Latitude : {this.state.coordinate_latitude}° N <br/>
+Temperature : {this.state.temperature-273 }°Celcius<br/>
 Pressure : {this.state.Pressure}<br/>
 Humidity : {this.state.Humidity}<br/>
 Sea Level : {this.state.Sea_level}<br/>
-Wind Speed : {this.state.Wind_speed}<br/>
+Wind Speed : {this.state.Wind_speed}km/hr<br/>
 </h3>  
 </div>
 
