@@ -21,7 +21,7 @@ class Weather extends Component {
         }
 }
 componentDidMount(){
-    var A='http://api.openweathermap.org/data/2.5/weather?appid=0c42f7f6b53b244c78a418f4f181282a&q='+this.state.hellocountry
+    var A='https://api.openweathermap.org/data/2.5/weather?appid=0c42f7f6b53b244c78a418f4f181282a&q='+this.state.hellocountry
 
     fetch(A).then((resp)=> {
         resp.json().then((result) => {
@@ -60,7 +60,7 @@ clickHandler(){
 console.log(this.inputRef.current.value)
 
 
-var A='http://api.openweathermap.org/data/2.5/weather?appid=0c42f7f6b53b244c78a418f4f181282a&q='+this.state.hellocountry
+var A='https://api.openweathermap.org/data/2.5/weather?appid=0c42f7f6b53b244c78a418f4f181282a&q='+this.state.hellocountry
 
 fetch(A).then((resp)=> {
     resp.json().then((result) => {
