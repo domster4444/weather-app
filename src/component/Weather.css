@@ -1,0 +1,103 @@
+
+*{
+    box-sizing: border-box;
+}
+.map{
+    height: 410px;
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 20px;
+    position: fixed;
+    top: 45%;
+    left: 0%;
+}
+
+
+
+.maindiv{
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+    color: black;
+    position: fixed;
+    margin-top: 0px;
+    
+    width: 100%;
+    height: 1000px;
+    background-image: url('./weather.jpg');
+  
+}
+.inputbox{
+    
+    margin-top: 6px;
+    outline: none;
+    font-family: 'Exo 2', sans-serif;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Pacifico', cursive;
+    top: 10%;
+    left: 43%;
+    text-align: center;
+    width: 200px;
+    font-size: larger;
+    box-shadow: 1px 1px 6px 1px black;
+    height:40px;
+    border-radius: 20px;
+   border: 1px solid black;
+}
+
+
+/* ////////////////////////////////////// */
+button {
+    font-family: 'MuseoModerno', cursive; font-family: 'Pacifico', cursive;
+    margin-left: 5px;
+    text-align: center;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px 0.5px black;
+    border: 2px solid black ;
+    outline:none;
+      position: relative;
+      background-color: white;
+      font-size: 18px;
+      color: black;
+      width: 200px;
+      text-align: center;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    button:after {
+        color: black;
+      content: "";
+      background: white;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px!important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    button:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+button:hover{
+    color: white;
+    box-shadow: 1px 1px 6px 1px black;
+
+    background:black
+}
+
+
+
+/* ...................................... */
+.weatherinfo{
+    align-items: center;    
+   }
