@@ -6,7 +6,7 @@ class Weather extends Component {
     super(props)
     this.inputRef=React.createRef()
     this.state={
-         hellocountry:'australia',
+         hellocountry:'nepal',
          inputcountry:null,
          testvalue:null,
          country_name:null,
@@ -109,8 +109,8 @@ this.setState({linkformap:mapapi})
 
 
 <div>
-    <input className='inputbox' type='textbox' placeholder='country name' ref={this.inputRef} />
-<button onClick={()=>this.clickHandler()}>FIND WEATHER</button>
+    <input className='inputbox' type='textbox' placeholder='Country Name' ref={this.inputRef} />
+<button onMouseDown={()=>this.clickHandler()} onMouseUp={()=>this.clickHandler()} onClick={()=>this.clickHandler()} >FIND WEATHER</button>
 
 </div>
 

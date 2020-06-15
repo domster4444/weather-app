@@ -27,21 +27,25 @@
   
 }
 .inputbox{
-    
+
+    color:black;
+    background:transparent ;
     margin-top: 6px;
     outline: none;
     font-family: 'Exo 2', sans-serif;
-font-family: 'MuseoModerno', cursive;
-font-family: 'Pacifico', cursive;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Pacifico', cursive;
     top: 10%;
     left: 43%;
     text-align: center;
     width: 200px;
     font-size: larger;
-    box-shadow: 1px 1px 6px 1px black;
+    box-shadow:inset 1px 1px 27px -1px ;
     height:40px;
     border-radius: 20px;
-   border: 1px solid black;
+   border: 1px dotted black;
+}::placeholder{
+    color: white;
 }
 
 
@@ -99,5 +103,8 @@ button:hover{
 
 /* ...................................... */
 .weatherinfo{
+    color: black;
+margin-top: -30px;
+    background: transparent;
     align-items: center;    
    }
